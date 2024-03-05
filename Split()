@@ -1,0 +1,29 @@
+## Python String split() Method
+txt = "Rownita Tasneem"
+
+x = txt.split()
+
+print(x)
+
+#Syntax
+#string.split(separator, maxsplit)
+#Parameter Values
+#Parameter	Description
+#separator	Optional. Specifies the separator to use when splitting the string. By default any whitespace is a separator
+#maxsplit	Optional. Specifies how many splits to do. Default value is -1, which is "all occurrences"
+#Use a hash character as a separator:
+
+txt_2 = "apple#banana#cherry#orange"
+
+x_2 = txt_2.split("#")
+
+print(x_2)
+
+#Split the string into a list with max 2 items:
+
+txt = "apple#banana#cherry#orange"
+
+# setting the maxsplit parameter to 1, will return a list with 2 elements!
+x_3 = txt.split("#", 1)
+
+print(x_3)
