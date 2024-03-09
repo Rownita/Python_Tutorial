@@ -1,0 +1,19 @@
+
+## variables that are created outside of a function are known as global #variables. Global variables can be used by everyone, both inside of #functions and outside.
+print(1,"plus",2,"equals",1+2)
+## 
+    
+print(5,"plus",10,5+10)
+
+name = input("Give me your name:")
+print("hello",name, "Good bye")
+    
+for i in range(1,6,2):
+    print("Hello")
+    
+print(i)
+
+
+name_country = input("What country are you from?")
+
+print("I have heard that "+name_country+ "is a beautiful country")
