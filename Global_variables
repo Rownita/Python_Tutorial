@@ -1,0 +1,22 @@
+
+## variables that are created outside of a function are known as global #variables. Global variables can be used by everyone, both inside of #functions and outside.
+x = "awesome"
+
+def myFUNC():
+    x = "smallest"
+    print("Python is"+x)
+    
+myFUNC()
+print("Python is"+x)
+    
+    
+## global keyword is used to create global variables inside function
+def func():
+    global y
+    y = "good"
+    
+    
+func()
+print("Python is"+y)
+
+## 
