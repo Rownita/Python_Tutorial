@@ -1,0 +1,15 @@
+## taking user input
+x = float(input("Enter a number:"))
+
+## generating multiplication table
+for i in range(1,11,1):
+    product = x * i
+    print(f"{x} multiplied by {i} is {product}")
+
+### type conversions
+ ## type conversion of variables   
+print(int(-2.8))
+print(float(2))
+print(int("123"))
+print(bool(-2),bool(0))
+print(str(234))
