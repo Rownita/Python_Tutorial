@@ -1,3 +1,4 @@
+## assigning values to multiple variables
 x,y,z = "Orange","Banana", "Cherry"
 print(x)
 print(y)
@@ -7,7 +8,7 @@ a,b,c = 25,67,99
 print(a)
 print(b)
 print(c)
-
+## Unpack a collection
 fruits = ["Apple","Jackfruit","Strawberry"]
 m,n,p = fruits
 print(m)
