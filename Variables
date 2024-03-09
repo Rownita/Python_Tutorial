@@ -1,0 +1,25 @@
+x,y,z = "Orange","Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+a,b,c = 25,67,99
+print(a)
+print(b)
+print(c)
+
+fruits = ["Apple","Jackfruit","Strawberry"]
+m,n,p = fruits
+print(m)
+print(n)
+print(p)
+#Orange
+#Banana
+#Cherry
+#25
+#67
+#99
+#Apple
+#Jackfruit
+#Strawberry
+> 
