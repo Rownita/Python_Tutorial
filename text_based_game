@@ -1,0 +1,43 @@
+🧙‍♂️ Text-Based Game Version of the Dragon Story
+We'll expand the story with:
+
+A choice for what the knight does.
+
+Different outcomes based on the choice.
+
+
+# Get user input
+name = input("Please type in a name: ")
+year = input("Please type in a year: ")
+
+# Intro story
+print()
+print(f"{name} is a valiant knight, born in the year {year}.")
+print(f"One morning, {name} woke up to an awful racket: a dragon was approaching the village!")
+print(f"Only {name} could save the village's residents.")
+print()
+
+# Present choices
+print("What should you do?")
+print("1. Grab your sword and confront the dragon.")
+print("2. Try to negotiate with the dragon.")
+print("3. Run away to a nearby town.")
+
+# Get player's decision
+choice = input("Enter the number of your choice (1-3): ")
+
+# Outcomes based on the player's decision
+print()
+
+if choice == "1":
+    print(f"With courage in {name}'s heart, the sword was drawn.")
+    print("After a fierce battle, the dragon was defeated and the village was saved!")
+elif choice == "2":
+    print(f"{name} approached the dragon carefully and tried to talk.")
+    print("Surprisingly, the dragon agreed to leave in exchange for a treasure!")
+    print("Peace returned to the village thanks to diplomacy.")
+elif choice == "3":
+    print(f"{name} fled to a nearby town, but the village was left defenseless.")
+    print("The dragon destroyed much of it, and guilt followed {name} for years.")
+else:
+    print("That wasn't a valid choice. The dragon scorched everything while
