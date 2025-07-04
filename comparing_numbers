@@ -1,0 +1,11 @@
+##comparing numbers
+# Write your solution here
+num = int(input("Please type in the first number:"))
+num2 = int(input("Please type in the second number:"))
+
+if num>num2:
+    print(f"The greater number was: {num}")
+elif num<num2:
+    print(f"The greater number was: {num2}")
+else:
+    print(f"The numbers are equal!")
