@@ -1,0 +1,18 @@
+
+The function len can be used to find out the length of a string, among other things. The function returns the number of characters in a string.
+
+Some examples of how this works:
+
+word = "abcd"
+# Write your solution here
+
+word = input("Please type in a word: ")
+
+letters = len(word)
+if letters>1:
+    print(f"There are {letters} letters in the word {word}")
+
+    print("Thank you!")
+
+if letters == 1:
+    print("Thank you!")
