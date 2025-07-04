@@ -1,0 +1,17 @@
+#Python comparison operators can also be used on strings. String a is smaller than string b if it comes alphabetically before b. Notice however that the comparison is only reliable if
+
+###the characters compared are of the same case, i.e. both UPPERCASE or both lowercase
+#Please write a program which asks the user for two words. The program should then print out whichever of the two comes alphabetically last.
+
+###You can assume all words will be typed in lowercase entirely.
+
+word_1 = input("Please type in the 1st word: ")
+word_2 = input("Please type in the 2nd word: ")
+
+if word_1<word_2:
+    print(f"{word_2} comes alphabetically last.")
+elif word_1>word_2:
+    print(f"{word_1} comes alphabetically last.")
+
+else:
+    print("You gave the same word twice.")
