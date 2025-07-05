@@ -1,12 +1,11 @@
 # Write
-story= ""
-word2=""
+story = ""
+previous = ""
 while True:
-    word1 = input("Please type in a word: ")
-    if word1!="end" or word1!=word2:
-        story=story+" "+word1
-    if word1=="end" or word1==word2: ##the program will end while break
+    word = input("Please type in a word: ")
+    if word == "end" or word == previous:
         break
-    word2=word1
-    
+    story += word + " "
+    previous = word
+ 
 print(story)
