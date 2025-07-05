@@ -1,0 +1,9 @@
+###This program should print out a countdown. The code is as follows:
+
+while True:
+  print(number)
+  number = number - 1
+  if number== 0:
+    break
+
+print("Now!")
