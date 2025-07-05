@@ -1,5 +1,5 @@
-for i in range(1,5,1):
-    for j in range(5,0,-1):
+for i in range(1,5,1):###printing rows
+    for j in range(5,0,-1):###printing columns
         if j>=i:
-            print("*")
-    print()
+            print("*",end="")###printing * but not printing newline
+    print()###printing new line
