@@ -1,0 +1,20 @@
+###Please write a program which keeps asking the user for a PIN code until they type in the correct one, which is 4321. 
+###The program should then print out the number of times the user tried different codes.
+# Write your solution here
+attempts = 0
+while True:
+    pin = int(input("PIN:"))
+    attempts=attempts+1
+    c_pin=4321
+
+    if pin==c_pin and attempts==1:
+        print("Correct! It only took you one single attempt!")
+        success=True
+        break
+    elif pin==c_pin and attempts>1:
+        print(f"Correct! It took you {attempts} attempts ")
+        success= True
+        break
+        
+    else:
+        print("Wrong")
