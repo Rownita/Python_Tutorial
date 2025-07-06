@@ -1,0 +1,7 @@
+first_nums = [1,2,3,4]
+second_nums = [5,6,7,8]
+all_nums = first_nums + second_nums
+
+list2= all_nums[-5:-1]
+print(list2)
+print(all_nums)
