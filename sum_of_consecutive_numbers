@@ -1,0 +1,16 @@
+# Get user input
+limit = int(input("Limit: "))
+
+# Initialize variables
+total = 0
+current = 1
+numbers = []
+
+# Compute consecutive sum until it reaches or exceeds the limit
+while total < limit:
+    total += current
+    numbers.append(str(current))
+    current += 1
+
+# Print result
+print("The consecutive sum:", " + ".join(numbers), "=", total)
