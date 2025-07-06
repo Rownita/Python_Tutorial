@@ -1,0 +1,9 @@
+# Write your solution here
+upper_limit = int(input("Upper limit: "))
+num = 0
+num2=1
+while num2<=upper_limit:
+   
+    num=num+1
+    print(num2)
+    num2=2**num
