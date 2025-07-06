@@ -1,0 +1,34 @@
+### Please write a program which asks the user for integer numbers. The program should keep asking for numbers until the user types in zero.
+Sample output
+... the program asks for numbers
+Numbers typed in 4
+The sum of the numbers is 34
+The mean of the numbers is 8.5
+Positive numbers 3
+Negative numbers 1
+
+# Write your solution here
+print("Please type in integer numbers. Type in 0 to finish.")
+sum = 0
+count = 0
+count2=0
+count3=0
+while True:
+    num = int(input("Number: "))
+    sum = sum+num ###printing sum
+    if num!=0:
+        count=count+1 ##counting all numbers
+        if num>0: ##counting positive numbers
+            count2=count2+1
+        if num<0: ### counting negative numbers
+            count3= count3+1
+    if num==0: ## type in 0 to finish
+        break
+
+mean = sum/count
+print(f"Numbers typed in {count}")
+print(f"The sum of the numbers is {sum} ")
+print(f"The mean of the numbers is {mean}")
+
+print(f"Positive numbers {count2}")
+print(f"Negative numbers {count3}")
