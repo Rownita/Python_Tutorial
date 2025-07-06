@@ -1,0 +1,10 @@
+###printing even numbers
+for i in range(2,31,1):
+    if i%2==0:
+        print(i)
+
+###solution 2
+number = 2
+while number <= 30:
+    print(number)
+    number += 2
