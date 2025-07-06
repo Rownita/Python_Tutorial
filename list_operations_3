@@ -1,0 +1,10 @@
+planets = ["Venus","Saturn","Neptune"]
+planets.append("earth")
+print(planets)
+planets.remove("Saturn")
+print(planets)
+
+print(planets.index("Neptune"))
+length_of_list = len(planets)
+print(length_of_list)
+print(type(planets))
