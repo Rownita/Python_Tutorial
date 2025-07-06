@@ -1,0 +1,12 @@
+list1 = ["abc",12,34,535,True,False]
+print(list1)
+
+list2 = [12,35,90.987,100]
+print(min(list2))
+print(sum(list2))
+print(max(list2))
+
+friends = ["Batman","Superman","Spiderman"]
+
+print("Fatman" in friends)
+print("Spiderman" in friends)
