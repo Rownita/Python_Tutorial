@@ -1,0 +1,19 @@
+friends = ["Batman","Cat Man","Fat Man", "Cockroach Man"]
+print(friends.index("Cat Man"))##calling index()
+print(friends.index("Fat Man")) 
+
+friends[1]="Rat Man" ### assigning new value to the list
+
+print(friends.index("Cockroach Man"))###printing index of element
+
+friends[2]="Fat Man"
+print(friends) ###printing list
+friends.append("Goat Man")
+friends.append("Superman")## adding element at the last position
+print(friends)
+
+length_of_list = len(friends)
+print(length_of_list)
+###Removing elements from list
+friends.remove("Cockroach Man")
+print(friends)
