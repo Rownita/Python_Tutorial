@@ -1,0 +1,19 @@
+
+###The program then prints the first three character slice which begins with the character specified by the user. 
+###You may assume the input string is at least three characters long. The program must print out three characters, or else nothing.
+
+##Pay special attention to when there are less than two characters left in the string after the first occurrence of the character looked for. In that case nothing should be printed out, and there should not be any indexing errors when executing the program.
+#In that case nothing should be printed out, and there should not be any indexing errors when executing the program.
+
+
+
+# Ask the user to input a word and a character
+word = input("Please type in a word: ")
+char = input("Please type in a character: ")
+
+# Find the index of the first occurrence of the character
+index = word.find(char)
+
+# Check if the character was found and if there are at least 3 characters left
+if index != -1 and index + 3 <= len(word):
+    print(word[index:index + 3])
