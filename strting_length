@@ -1,4 +1,4 @@
-# Write your solution here
+# The length of a string includes all the characters in the string, including whitespace. For example, the length of the string bye bye is 7
 str1=input("Please type in a string 1: ")
 str2 = input("Please type in a string 2:")
 
