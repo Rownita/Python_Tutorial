@@ -1,0 +1,16 @@
+
+##The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1. So, the sequence begins: 0, 1, 1, 2, 3, 5, 8, 13, and so on. 
+#Key Characteristics:
+#Starting Values: The sequence typically starts with 0 and 1. 
+#Recursive Definition: Each number (after the first two) is the sum of the two numbers before it. For example, 8 is the sum of 3 and 5. 
+#Mathematical Formula: This can be represented as F(n) = F(n-1) + F(n-2), where F(n) is the nth Fibonacci number. 
+def fibonacci(num):
+  fibo = [0,1] ##fibonacci series
+  i = 2 ##starting from 3rd element
+  while i<num:
+    sum=fibo[i-1]+fibo[i-2]
+    fibo.append(sum)
+    i = i+1
+  return fibo
+print(fibonacci(9))
+    
