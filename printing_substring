@@ -1,0 +1,9 @@
+# Write your solution here
+input_str = input("Please type in a string: ")
+length = len(input_str)
+i=-1
+count=1
+while count<=length:
+    print(input_str[i:])
+    i = i-1
+    count=count+1
