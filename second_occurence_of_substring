@@ -1,0 +1,18 @@
+###Please write a program which finds the second occurrence of a substring. If there is no second (or first) occurrence, the program should print out a message accordingly.
+
+###In this exercise the occurrences cannot overlap. For example, in the string aaaa the second occurrence of the substring aa is at index 2.
+
+# Write your solution here
+# Ask the user to input a word and a character
+string = input("Please type in a string: ")
+substring =input("Please type in a substring: ")
+
+###counting first occurence
+index=string.find(substring)
+index2=string.find(substring,index+len(substring))###counting second occurence after the length of first found substring
+
+if index2==-1:
+    print("The substring does not occur twice in the string.")
+
+if index2!=-1:
+    print(f"The second occurrence of the substring is at index {index2}.")
