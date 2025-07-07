@@ -1,0 +1,37 @@
+###solution1
+word = input("Word: ")
+ 
+print("*" * 30)
+spaces_at_start = (28 - len(word)) // 2
+spaces_at_end = spaces_at_start
+ 
+# If the word length is odd, one is added to the spaces at the end of the word
+# to get all 30 characters filled
+if len(word) % 2 != 0:
+    spaces_at_end += 1
+ 
+print("*" + spaces_at_start * " " + word + spaces_at_end * " " + "*")
+print("*" * 30)
+
+Solution-2
+# Write your solution here
+# Ask the user for a word
+word = input("Word: ")
+
+# Frame width
+frame_width = 30
+
+# Calculate padding
+padding_total = frame_width - 2 - len(word)  # subtract 2 for the '*' borders
+padding_left = padding_total // 2
+padding_right = padding_total - padding_left
+
+# Construct the lines
+top_bottom = "*" * frame_width
+middle = "*" + " " * padding_left + word + " " * padding_right + "*"
+
+# Print the frame
+print()
+print(top_bottom)
+print(middle)
+print(top_bottom)
