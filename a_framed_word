@@ -35,3 +35,10 @@ print()
 print(top_bottom)
 print(middle)
 print(top_bottom)
+
+How it works:
+The total width is 30 characters, including the two * on each side.
+
+The padding on the left and right is calculated to center the word.
+
+If the word length is odd, Python's integer division (//) ensures one side might have 1 more space, which is acceptable.
