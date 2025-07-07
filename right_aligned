@@ -1,0 +1,6 @@
+# Write your solution here
+str = input("Please type in a string:")
+
+print("*"*(20-len(str)),end="")
+print(str,end="")
+  
