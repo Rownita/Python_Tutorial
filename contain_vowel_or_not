@@ -1,0 +1,23 @@
+###Please write a program which asks the user to input a string. The program then prints out different messages if the string contains any of the vowels a, e or o.
+
+# Write your solution here
+string = input("Please type in a string")
+list_a = ["a","e","o"]
+
+for i in list_a:
+    if i in string:
+        print(f"{i} found")
+    else:
+        print(f"{i} not found")
+  ###solution2
+string = input("Please type in a string: ")
+vowels = "aeo"
+index = 0
+ 
+while index < len(vowels):
+    vowel = vowels[index]
+    if vowel in string:
+        print(vowel, "found")
+    else:
+        print(vowel, "not found")
+    index += 1
