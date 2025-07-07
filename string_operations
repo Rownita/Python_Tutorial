@@ -1,0 +1,13 @@
+input_string = input("Please type in a string: ")
+print("First character: " + input_string[0])
+print("Last character: " + input_string[len(input_string) - 1])
+###looping through string
+index = 0
+while index < len(input_string):
+    print(input_string[index])
+    index += 1
+    
+if len(input_string) > 0:
+    print("First character: " + input_string[0])
+else:
+    print("The input string is empty. There is no first character.")
