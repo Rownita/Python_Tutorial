@@ -1,0 +1,20 @@
+Please make an extended version of the previous program, which prints out all the substrings which are at least three characters long, and which begin with the character specified by the user. You may assume the input string is at least three characters long.
+####.
+
+
+# Ask the user to input a word and a character
+word = input("Please type in a word: ")
+char = input("Please type in a character: ")
+
+# Loop through the string to find all valid substrings
+for i in range(len(word) - 2):  # Stop at len(word)-2 to ensure at least 3 characters remain
+    if word[i] == char:
+        substring = word[i:i+3]
+        print(substring)
+How It Works:
+The loop runs from the start of the word up to the third-to-last character (inclusive).
+
+It checks if the current character matches the input character.
+
+If so, it prints a slice of 3 characters starting from that index.
+
