@@ -1,0 +1,9 @@
+def count_vowels(sentence):
+    vowels = ["a","e","i","o","u","A","E","I","O","U"]
+    count =0
+    for char in sentence: ### looping through sentence
+        if char in vowels: ### checking vowels in the sentence
+            count = count+1
+    return count
+calculating_vowels = count_vowels("Hello world!")
+print(calculating_vowels)
