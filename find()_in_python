@@ -1,0 +1,11 @@
+string.find(substring, start, end)
+Parameters:
+
+substring (required): The substring to be searched for.
+start (optional): The starting index from which to begin the search. Defaults to 0 (the beginning of the string). 
+end (optional): The ending index up to which to search. Defaults to the end of the string.
+
+Return Value:
+
+If the substring is found, find() returns the index of its first occurrence.
+If the substring is not found within the specified range, find() returns -1. 
