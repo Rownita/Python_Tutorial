@@ -1,0 +1,9 @@
+sentence = input("Write a sentence:")
+count=0
+for char in sentence:
+    if char == " ": ###if whitespace occured, then it is a word
+        count = count+1 ## count word
+        
+###add one for the last word
+count = count+1
+print(count)
