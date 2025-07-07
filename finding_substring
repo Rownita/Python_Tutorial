@@ -1,0 +1,15 @@
+input_string = "Test"
+###find() returns index of the substring found or -1 when not found
+print(input_string.find("t"))
+print(input_string.find("x"))
+print(input_string.find("es"))
+print(input_string.find("ets"))
+
+### It takes the substring searched for as an argument, and returns either the first index where it is found, or -1 if the substring is not found within the string.
+while True:
+    input_str=input("What are you looking for?")### substring
+    index = input_string.find(input_str)
+    if index>=0:
+        print(f"Found it at the index {index}")
+    else:
+        print("not found")
