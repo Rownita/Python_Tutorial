@@ -1,0 +1,9 @@
+# Write your solution here
+
+str= input("Please type in a string: ")
+
+while str!="":
+    
+    print(str)
+    print("-"*len(str))
+    str=input("Please type in a string: ")
