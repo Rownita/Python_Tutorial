@@ -1,0 +1,11 @@
+input_string = input("Please type in a string: ")
+i=len(input_string)-1
+while i>=0:
+    print(input_string[i])
+    i=i-1
+###solution 2
+input_string = input("Please type in a string: ")
+index = -1
+while index >= -len(input_string):
+    print(input_string[index])
+    index -= 1
