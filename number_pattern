@@ -1,0 +1,9 @@
+num = int(input("Enter a number:"))
+
+for i in range(1,num+1): ###creating rows
+    for j in range(1,num+1): ### creating columns
+        if j<=i :
+            print(j,end="") ###printing numbers
+        else:
+            print("",end="") ###printing space
+    print() ###printing newline
