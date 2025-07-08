@@ -1,0 +1,21 @@
+txt = "hello, my name is Peter, I am 26 years old"
+
+x = txt.split(", ")
+
+print(x)
+
+txt2 = "I am a good girl"
+
+y=txt2.split()
+print(y)
+
+# Ask the user to enter a sentence
+sentence = input("Please type in a sentence: ")
+
+# Split the sentence into words
+words = sentence.split()###returns a list of words
+
+# Print the first letter of each word, each on a separate line
+for word in words:
+    if word:  # check that the word is not empty
+        print(word[0])
