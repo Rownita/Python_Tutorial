@@ -1,0 +1,19 @@
+def chessboard(num):
+    for i in range(1,num+1):
+        for j in range(1,num+1):
+      ###print 1 and 0 based on even and odd position
+            if i%2!=0 and j%2!=0:
+                print("1", end = "")
+            if i%2==0 and j%2!=0:
+                print("0", end= "")
+            if i%2!=0 and j%2==0:
+                print("0",end= "")
+            if i%2==0 and j%2==0:
+                print("1",end="")
+        print()
+
+
+# Testing the function
+if __name__ == "__main__":
+    chessboard(3)
+    chessboard(6)
