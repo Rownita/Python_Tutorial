@@ -1,0 +1,11 @@
+import math
+num1=int(input("Enter the first number:"))
+num2 = int(input("Ënter the second number:"))
+
+result = num1//num2
+print(result)
+result2 = math.floor(3.4)###returns integer part
+print(result2)
+
+result3=math.floor(num1/num2)###returns floor division
+print(result3)
