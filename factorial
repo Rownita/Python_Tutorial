@@ -1,0 +1,12 @@
+# Write your solution here
+while True:
+    num = int(input("Please type in a number: "))
+    fact = 1
+    if num>0: ###if the number is greater than zero then count factorial
+        for i in range(1,num+1,1):
+            fact=fact*i
+        print(f"The factorial of the number {num} is {fact}")
+    else: ###if the number is negative or zero, then break
+        print("Thanks and bye!")
+        break
+
