@@ -1,7 +1,7 @@
 
 def get_sum_of_digits(num):
     sum = 0
-    while num>0:
+    while num>0: ###loop through until 0
         last_digit = num%10 ### finding last digit
         sum = sum+last_digit
         num = num//10 ## getting rid of last digit
