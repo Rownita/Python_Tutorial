@@ -1,0 +1,22 @@
+# Write your code here
+# Testing the function
+
+def mean(x,y,z):
+    print((x+y+z)/3)
+
+if __name__ == "__main__":
+    mean(5,3,1)
+    mean(10,1,1)
+
+  ###
+# Ask the user to enter numbers separated by spaces
+numbers_input = input("Enter numbers separated by spaces: ")
+
+# Convert the input string into a list of floats
+numbers = [float(num) for num in numbers_input.split()]
+
+# Calculate the mean
+mean = sum(numbers) / len(numbers)
+
+# Print the result
+print("Mean:", mean)
