@@ -1,0 +1,11 @@
+###swapping variables
+a= int(input("Enter 1st Number: "))
+b= int(input("Enter 2nd Number: "))
+
+temp=a
+a=b
+b=temp
+print("After swapping:",a,b)
+
+a,b=b,a ###swapping again
+print("After swapping again:",a,b)
