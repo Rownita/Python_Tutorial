@@ -1,0 +1,19 @@
+###sum_of_numbers_in_a_list
+def get_sum_nums(numbers):
+    sum = 0
+    for i in numbers: ###loop through all the elements of the list
+        sum=sum+i
+        
+    return sum
+    
+list = [34,56,78]
+
+sum_of_numbers = get_sum_nums(list)
+print(sum_of_numbers)
+        
+        
+### sum function
+
+sum_of_nums = sum(list)
+print(sum_of_nums)
+    
