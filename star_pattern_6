@@ -1,0 +1,7 @@
+for i in range(1,5): ###creating rows
+    for j in range(1,8): ## creating columns
+        if j>=i and j<=8-i: ### condition for printing star
+            print("*", end = "")
+        else:
+            print(" ",end="") ###printing space
+    print()###creating newline
