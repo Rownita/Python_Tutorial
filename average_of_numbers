@@ -1,0 +1,16 @@
+numbers = int(input("How many numbers: "))
+
+list_num = []
+sum =0
+i=1
+while i<=numbers:
+    num1=float(input("Enter number:"))
+    list_num.append(num1)
+    i = i+1
+
+    
+for i in list_num:
+    sum = sum+i
+average= sum/numbers
+print("The average of the number is: ",average)
+    
