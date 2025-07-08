@@ -1,0 +1,4 @@
+num1= int(input("Enter a number1:"))
+num2 = int(input("Enter a number2:"))
+largest = max(num1,num2)
+print(largest)
