@@ -1,0 +1,18 @@
+###checking whether a string is palindrome or not
+text = input("Enter the string: ")
+
+def reverse_string(text):
+    reverse = ""
+    for char in text:
+        reverse = char+reverse ## reversing the string
+    return reverse
+    
+reverse_txt = reverse_string(text)
+
+print("The reversed string is ",reverse_txt)
+###checking palindrome or not
+if reverse_txt == text:
+    print("The word is a palindrome")
+    
+else:
+    print("The word is not a palindrome")
