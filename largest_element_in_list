@@ -1,0 +1,15 @@
+### sum of elements of a list
+list1 = [23,45.67,78,89,100]
+
+def get_largest(nums):
+    largest = nums[0] ### set 1st element as largest
+    for num in nums:
+        if num>largest: ### comparing with the largest
+            largest = num
+    return largest
+    
+largest = get_largest(list1)
+print(largest)
+
+largest_num=max(list1)
+print(largest_num)
