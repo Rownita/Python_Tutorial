@@ -1,0 +1,22 @@
+### A palindrome number is a number that remains the same when its digits are reversed. For example, 121 is a palindrome because it reads the same backward as forward. 
+
+number = int(input("Enter a number: "))
+
+
+def reverse_number(num):
+    list_1 = []
+    while num>0 :
+        last_digit = num%10 ###getting last digit
+        list_1.append(str(last_digit))
+        num = num//10 ###getting rid of last digit
+    list_2="".join(list_1) ###creating list of last digits
+    return list_2
+    
+reverse_digit = reverse_number(number)
+reverse_digit2=int(reverse_digit)
+
+if reverse_digit2 == number:
+    print("The number is a palindrome")
+else:
+    print("The number is not palindrome")
+    
