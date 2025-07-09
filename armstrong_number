@@ -1,0 +1,23 @@
+number = int(input("Enter a number: "))
+list_1 = []
+count = 0
+num=number
+### creating a list of digits by extracting from number
+while num>0:
+    last_digit = num%10
+    list_1.append(last_digit)
+    count = count+1 ###counting the number of digits
+    num = num//10
+    
+print(count)   
+print(list_1)
+sum = 0
+### calculating sum of the elements
+for i in list_1:
+    sum = sum+ (i**count)
+print(sum)
+
+if sum==number:
+    print(f"{number} is an armstrong number")
+else:
+    print(f"{number} is not an armstrong number")
