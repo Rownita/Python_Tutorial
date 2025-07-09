@@ -1,3 +1,4 @@
+###finding prime factors of a number
 number = int(input("Enter the number: "))
 
 def is_prime(num):
