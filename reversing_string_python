@@ -1,0 +1,22 @@
+text = input("Enter a text: ")
+
+new_text= text[2:6:1]
+print(new_text)
+
+new_text_2 = text[4:7:1]
+print(new_text_2)
+length_string = len(text)
+reversed_string= text[::-1] ###string slicing
+
+print(reversed_string)
+
+###method2
+def reverse_string(str):
+    reverse=""
+    for char in str:
+        reverse = char + reverse
+    return reverse
+    
+str = input("Enter a string: ")
+result=reverse_string(str)
+print(result)
