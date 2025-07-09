@@ -1,0 +1,23 @@
+✅ Clean & Correct Version (Using Math Only):
+
+num = int(input("Enter a number: "))
+reversed_num = 0
+
+while num > 0:
+    last_digit = num % 10
+    reversed_num = reversed_num * 10 + last_digit
+    num = num // 10
+
+print("Reversed number:", reversed_num)
+✅ If You Want to Use a List:
+
+num = int(input("Enter a number: "))
+list1 = []
+
+while num > 0:
+    last_digit = num % 10
+    num = num // 10
+    list1.append(str(last_digit))  # Convert to string here
+
+result_reverse = ''.join(list1)
+print("Reversed number:", result_reverse)
