@@ -1,0 +1,15 @@
+
+principal = float(input("Enter the principal: "))
+rate = float(input("Enter the annual interest rate:"))
+time = float(input("Enter the duration in years: "))
+number_time = float(input("Number of times interest is compounded per year: "))
+
+def compound_interest(p,r,t,n):
+    final_amount = p*((1+(r/(n*100)))**(n*t))
+    cmp_interest = final_amount - p
+    return cmp_interest
+    
+compound_intrs= compound_interest(principal,rate,time,number_time)
+
+print("The compound interest is ",compound_intrs)
+
