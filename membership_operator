@@ -1,0 +1,23 @@
+###The not in operator in Python is a membership operator used to check if a specified value is not present within a sequence (like a list, tuple, string, or range) or a collection (like a set or dictionary keys). 
+##It returns True if the value is not found in the collection, and False if the value is found.
+
+### not in operator
+my_list = [23,45,67,89,56]
+
+result = 23 not in my_list
+print(result)
+
+
+result2= 45 not in my_list
+
+print(result2)
+
+result3 = 89 not in my_list
+print(result3)
+
+string2 = "Hello! world"
+
+result4 = "H" not in string2
+print(result4)
+result5 = "z" not in string2
+print(result5)
