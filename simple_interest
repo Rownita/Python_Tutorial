@@ -1,0 +1,19 @@
+Simple Interest (SI)= 
+P×R×T / 100
+​
+ 
+Where:
+P = Principal amount (initial money)
+R = Annual interest rate (%)
+T = Time in years
+###simple_interest calculation
+
+principle = float(input("Enter the principle amount:"))
+interest_rate = float(input("Enter the annual interest rate: "))
+time = int(input("How many years: "))
+
+def calculate_interest(p,r,t):
+    return (p*r*t)/100
+    
+interest_amount = calculate_interest(principle,interest_rate,time)
+print("The interest amount is ",interest_amount)
