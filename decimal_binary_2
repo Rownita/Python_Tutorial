@@ -1,0 +1,15 @@
+decimal = int(input("Enter the number: "))
+
+def decimal_binary(num):
+    list_1 = [] ###this list will contain binary number
+    while num>0:
+        remainder = num%2
+        list_1.append(remainder)###remainder is the binary number
+        num = num//2 
+    list_1.reverse() ###reversing the list
+    binary = "".join(str(x) for x in list_1) ###joining the element of the list
+    return binary
+
+binary = decimal_binary(decimal)
+
+print(binary)
