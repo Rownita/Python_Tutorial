@@ -1,0 +1,22 @@
+def decimal_to_binary(n):
+    remainders = []
+
+    while n > 0:
+        remainder = n % 2
+        remainders.append(str(remainder))
+        n = n // 2
+
+    # The binary number is the remainders read from bottom to top
+    remainders.reverse()
+    return ''.join(remainders) if remainders else '0'
+
+# Example usage
+print(decimal_to_binary(13))  # Output: 1101
+How it works:
+n % 2 gets the remainder.
+
+n // 2 reduces the number.
+
+remainders.reverse() puts the bits in the correct order.
+
+'0' is returned for input 0.
