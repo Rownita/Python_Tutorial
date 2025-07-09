@@ -1,0 +1,19 @@
+number = int(input("Enter the number: "))
+###finding if the number prime or not
+def is_prime(num):
+    for i in range(2,num):
+        if num%i==0:
+            return False
+            break
+    return True
+
+
+primes = []   
+###finding all the primes upto that number
+for i in range(2,number+1):
+   
+    result=is_prime(i)
+    if result==True:
+        primes.append(i)
+        
+print(primes)
