@@ -1,0 +1,17 @@
+# Write Python 3 code in this online editor and run it.
+chars = ["1","0","0","1"]
+
+result = "".join(chars)
+
+print(result)
+
+list2 = ["Hello","world"]
+
+result2 = "".join(list2)
+
+print(result2)
+
+list3 = [1,2,3,4]
+
+result3="".join(str(x) for x in list3)###converting the elements into string and joining them.because join takes only string
+print(result3)
