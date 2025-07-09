@@ -1,0 +1,18 @@
+###second largest number in a list
+list1=[23,256,78,89,100]
+
+largest_i = list1[0] ## setting 1st element as largest
+
+for i in list1:
+    if i>largest_i:
+        largest_i = i
+        
+list1.remove(largest_i) ### removing largest
+
+second_largest = list1[0]
+
+for i in list1: ###finding second largest
+    if i>second_largest:
+        second_largest = i
+        
+print("Second largest: ",second_largest)
