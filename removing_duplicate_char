@@ -1,0 +1,14 @@
+### remove duplicate characters from  a given string
+string = input("Enter the string: ")
+list_1=[]
+###creating a list without duplicate characters
+for i in string:
+    if i not in list_1:
+        list_1.append(i)
+        
+string2=""        
+### transforming the list into string
+for i in list_1:
+    string2 = string2+i
+
+print(f"after removing duplicate: {string2}")
