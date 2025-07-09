@@ -1,0 +1,23 @@
+###solution1
+### finding the second smallest element
+list_2 = [24,56,43,67,78,89,100]
+
+list_2=sorted(list_2) ###sorting the list
+second_smallest_element = list_2[1] ##second_smallest element
+print(second_smallest_element)
+
+###solution2
+
+### finding the second smallest element
+list2 = [24,56,43,67,78,89,100]
+
+smallest = list2[0]
+
+for i in list2:
+    if i<smallest:
+        smallest = i
+        
+list2.remove(smallest)
+
+second_smallest=min(list2)
+print("Second smallest is:",second_smallest)
