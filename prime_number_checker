@@ -4,10 +4,10 @@ def is_prime(num):
     for i in range(2,number):
         if number%i==0 : ###if the number is divisible then it is not prime
             return False
-            break
+            break ###breaking the loop and returning false if the number is not prime
         
     
-    return True
+    return True ### if the number is prime,it will return true
          
 result=is_prime(number)
 
