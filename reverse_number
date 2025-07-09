@@ -9,7 +9,7 @@ while num > 0:
     num = num // 10
 
 print("Reversed number:", reversed_num)
-✅ If You Want to Use a List:
+✅ If I Want to Use a List:
 
 num = int(input("Enter a number: "))
 list1 = []
