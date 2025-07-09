@@ -1,0 +1,4 @@
+### finding the second smallest element
+miles = float(input("Ënter miles: "))
+kilometers = miles*1.609344
+print("Distance kilometers:", kilometers)
