@@ -1,0 +1,24 @@
+ join list elements into a single string in Python, you use the join() method.
+
+✅ Syntax:
+
+'separator'.join(list)
+'separator' is the string inserted between each element (e.g., ' ', '-', '')
+
+list should contain only strings
+
+🔹 Example 1: Join with no separator
+
+chars = ['1', '1', '0', '1']
+result = ''.join(chars)
+print(result)  # Output: 1101
+🔹 Example 2: Join with space
+
+words = ['Hello', 'world']
+result = ' '.join(words)
+print(result)  # Output: Hello world
+⚠️ Note:
+If your list has non-string elements, convert them first:
+nums = [1, 2, 3]
+result = ''.join(str(x) for x in nums)
+print(result)  # Output: 123
