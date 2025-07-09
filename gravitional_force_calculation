@@ -1,0 +1,11 @@
+mass1 = float(input("Mass1: "))
+mass2 = float(input("Mass2: "))
+distance = float(input("Distance: "))
+G = 6.673*(10**-11)
+
+def force(mass1,mass2,distance):
+    force = (mass1*mass2*G)/pow(distance,2)
+    return force
+fc = force(mass1,mass2,distance)
+        
+print(f"The gravitational force is: {fc}N")
