@@ -1,3 +1,14 @@
+##Divide the decimal number by 2.
+
+##Record the remainder (either 0 or 1).
+
+##Divide the quotient again by 2, record the remainder.
+
+##Repeat until the quotient is 0.
+
+The binary number is the remainders read from bottom to top.
+
+
 decimal = int(input("Enter the number: "))
 
 def decimal_binary(num):
