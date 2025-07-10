@@ -1,0 +1,14 @@
+this_list = ["apple","banana","cherry"]
+
+for fruit in this_list:
+    print(fruit)
+    
+for i in range(0,len(this_list)):
+    print(this_list[i])
+    
+i = 0
+while i<len(this_list):
+    print(this_list[i])
+    i= i+1
+
+[print(x) for x in this_list]
