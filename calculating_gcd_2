@@ -1,0 +1,23 @@
+num1 = int(input("Enter 1st number: "))
+num2 = int(input("Enter 2nd number: "))
+list_1 = []
+def is_prime(num):
+    for i in range(2,num):
+        if num%i==0:
+            return False
+            break
+    return True
+            
+def prime_factors(num):
+    prime_fact=[] ###creating a list for prime factors
+    for i in range(1,num+1):
+        if num%i==0: ###calculating factors
+            result = is_prime(i)
+            if result==True:
+                prime_fact.append(i) ### if the number is prime then appending to the list
+    return prime_fact
+    
+result1 = prime_factors(num1)
+result2 = prime_factors(num2)
+print(result1)
+print(result2)
