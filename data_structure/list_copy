@@ -1,0 +1,15 @@
+new_list = ["superman","batman","spiderman","ratman"]
+
+new_list2 = ["Banana","orange","blueberry","Grapes"]
+
+list3= new_list.copy() ###copying new list to list3
+
+print(list3)
+
+### copying using the slice operator
+list4 = new_list[:]
+print(list4)
+
+###copying using the list method
+list5 = list(new_list)
+print(list5)
