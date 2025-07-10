@@ -1,0 +1,16 @@
+this_list=["apple","banana","cherry","orange","kiwi","mango"]
+
+this_list.append("lemon")
+this_list.insert(2,"jackfruit")
+print(this_list)
+
+tropical = ["berry","dragon","tangerine"]
+
+new_list = this_list.extend(tropical)
+
+print(new_list)
+
+this_tuple=("superman","batman")
+
+this_list.extend(this_tuple)
+print(this_list)
