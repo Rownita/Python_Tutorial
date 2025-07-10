@@ -1,0 +1,31 @@
+###Rock-paper_scissor_game
+### Rock wins against scissors
+### Scissor wins against paper
+### paper wins against rock
+
+
+
+player1 = input("First player: rock,paper or scissor:")
+player2 = input("Second player: rock,paper or scissor:")
+
+
+def get_winner(p1,p2):
+    
+    if p1=="rock":
+        if p2=="paper":
+            return "2nd player wins"
+        else:
+            return "1st player wins"
+    elif p1=="scissor":
+        if p2=="rock":
+            return "2nd player wins"
+        else:
+            return "1st player wins"
+    elif p1=="paper":
+        if p2=="scissor":
+            return "2nd player wins"
+        else:
+            return "1st player wins"
+            
+print(get_winner(player1,player2))
+            
