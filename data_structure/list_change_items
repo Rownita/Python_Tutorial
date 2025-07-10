@@ -1,0 +1,16 @@
+this_list=["apple","banana","cherry","orange","kiwi","mango"]
+
+this_list[1] = "blueberry"
+print(this_list)
+
+this_list[1:3] = ["superman","fatman"]
+print(this_list)
+
+this_list[1:2]=["blackcurrent","watermelon"]
+print(this_list)
+
+this_list.insert(2,"lemon")
+print(this_list)
+
+this_list.insert(3,"berry")
+print(this_list)
