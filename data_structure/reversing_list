@@ -1,0 +1,7 @@
+
+### reversing list
+
+this_list = ["apple","banana","cherry"]
+
+this_list.reverse()
+print(this_list)
