@@ -16,3 +16,9 @@ print(list2)
 list3 = [49,7,8,10,20,4]
 list3.sort(reverse=True)##sorting in descending order
 print(list3)
+
+###case sensitive sort
+list4 = ["apple","orange","banana","Cherry"]
+
+list4.sort(key = str.lower) ###str.lower is a key function
+print(list4)
