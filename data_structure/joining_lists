@@ -1,0 +1,19 @@
+###joining lists
+new_list = ["superman","batman","spiderman","ratman"]
+
+new_list2 = ["Banana","orange","blueberry","Grapes"]
+
+list_3 = new_list+new_list2
+print(list_3)
+
+for x in new_list2:
+    new_list.append(x)
+    
+print(new_list)
+
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+list1.extend(list2)
+
+print(list1)
