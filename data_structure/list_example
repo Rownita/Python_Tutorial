@@ -1,0 +1,11 @@
+this_list = ["apple","banana","cherry"]
+print(this_list)
+
+length = len(this_list)
+print(length)
+            
+list2= [12,34,56,89.67]
+
+list3= ["abc","mango",True,40,"male"]
+
+print(type(list3))
