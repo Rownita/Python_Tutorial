@@ -1,0 +1,19 @@
+this_list = ["apple","banana","cherry"]
+
+##print(this_list[0])
+##print(this_list[1])
+##print(this_list[2])
+
+### negative indexing
+##print(this_list[-1])
+##print(this_list[-2])
+
+new_list = ["apple","banana","cherry","orange","kiwi","melon","blueberry"]
+
+print(new_list[1:5])
+print(new_list[-4:-1])
+print(new_list[2:])
+print(new_list[:4])
+
+if "cherry" in new_list:
+    print("Yes, cherry is in the list!!!")
