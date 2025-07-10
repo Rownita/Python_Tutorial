@@ -1,0 +1,29 @@
+
+###finding prime factors of a number
+number = int(input("Enter the number: "))
+
+def is_prime(num):
+    for i in range(2,num):
+        if num<2: ## checking for false
+            return False
+        if num%i==0 : ###if the number is divisible then it is not prime
+            return False
+            break
+    return True
+
+def prime_factors(num):
+    prime_fact = [] ##creating a list for prime factors
+    for i in range(2,num+1):
+        
+        if num%i==0:
+            x=is_prime(i) ###checking if the factor is prime or not
+            if x==True: ###if the number is prime then appending it to the list
+                prime_fact.append(i)
+    return prime_fact
+    
+result=prime_factors(number)
+print("The prime factors: ")
+for m in result:
+    print(m)
+max_num = max(result)
+print("The largest prime factor: ",max_num)
