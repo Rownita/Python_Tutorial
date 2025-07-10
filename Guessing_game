@@ -1,0 +1,18 @@
+### Asking user for a number continuously . If the random number matches the quess, the user will score 10. if the user press q, it will end the game.
+
+import random
+print("To quit presss q")
+while True:
+    guess = input("Enter a number between 0 to 10: ")
+    random_num = random.randint(0,10)
+    score = 0
+    if guess=="q":
+        print("You quit!!!")
+        break
+    guess = int(guess)
+    if guess == random_num:
+        print("Congrats! You guessed it correctly")
+        score = score+10
+        print("Your new score is ",score)
+    elif guess!= random_num:
+        print("Your guess is incorrect!")
