@@ -1,0 +1,26 @@
+### Find the largest palindrome made from the product of two 
+##3-digit numbers.
+def reverse_num(num):
+    reverse_num=0
+    while num>0:
+        last_digit = num%10
+        reverse_num=reverse_num*10+last_digit
+        num = num//10 ###getting rid from last digit
+    return reverse_num
+
+def palindrome_multiple():
+    palindrome = []
+    for i in range(100,1000):
+        for j in range(100,1000):
+            mult=i*j
+            mult_2=reverse_num(mult)
+            if mult_2 == mult:
+                palindrome.append(mult_2)
+    print(palindrome)
+    return palindrome
+
+
+palindrome = palindrome_multiple()
+max_palindrome= max (palindrome) ## largest multiple
+
+print("The largest palindrome:",max_palindrome)
