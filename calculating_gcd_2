@@ -9,6 +9,6 @@ def compute_gcd(x,y):
         if (x%i)==0 and (y%i)==0: ###finding greatest common divisor
             gcd = i
     return gcd
-    
+### gcd will be smaller or equal to the smallest number   
 gcd = compute_gcd(num1,num2)
 print(gcd)
