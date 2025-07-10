@@ -12,3 +12,7 @@ def compute_gcd(x,y):
 ### gcd will be smaller or equal to the smallest number   
 gcd = compute_gcd(num1,num2)
 print(gcd)
+###second solution
+import math
+gcd = math.gcd(num1,num2)
+print(gcd)
