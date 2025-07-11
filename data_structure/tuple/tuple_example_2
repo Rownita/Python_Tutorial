@@ -1,0 +1,11 @@
+this_tuple=("apple","banana","cherry")
+print(this_tuple)
+
+new_tuple = tuple(("orange","lemon","melon")) ## tuple_method2
+print(len(this_tuple))
+print(type(this_tuple))
+
+tuple3= (True,False,False)
+tuple4 = ("abc",34,True,40,"male")
+print(type(tuple4))
+print(new_tuple)
