@@ -1,0 +1,23 @@
+###removing duplicate tuple
+data = [(1,2),(3,4),(1,2),(5,6)]
+
+unique_tuples = set(data)
+
+print(unique_tuples)
+
+unique = tuple(unique_tuples)
+print(unique)
+##method2
+data = [(1, 2), (3, 4), (1, 2), (5, 6)]
+
+seen = set()
+unique = []
+
+for item in data:
+    if item not in seen:
+        unique.append(item)
+        seen.add(item)
+
+unique = tuple(unique)
+print(unique)
+
