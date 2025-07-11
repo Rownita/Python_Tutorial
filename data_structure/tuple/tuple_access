@@ -1,0 +1,19 @@
+###accessing tuples
+
+this_tuple=("apple","banana","cherry")
+
+print(this_tuple[1])
+print(this_tuple[2])
+
+new_tuple=("superman","spiderman","batman","ratman","catman")
+
+print(new_tuple[2:5])
+print(new_tuple[2:])
+print(new_tuple[:4])
+
+print(new_tuple[-4:-1])
+
+if "apple" in new_tuple:
+    print("yes")
+else:
+    print("no")
