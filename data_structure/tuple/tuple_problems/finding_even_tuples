@@ -1,0 +1,10 @@
+### finding tuples with all even numbers
+data = [(2,4),(1,3),(6,8),(7,9)]
+
+result = []
+
+for tup in data:
+    if all (x%2==0 for x in tup): ### finding even tuple
+        result.append(tup)
+        
+print(result)
