@@ -1,0 +1,17 @@
+x = ("apple","banana","cherry")
+y = list(x) ###converting the tuple into a list for adding items
+
+y[1]="orange" ###adding new item
+x = tuple(y)
+print(x)
+
+###adding tuple to a tuple
+this_tuple=("mango",)
+z = x+this_tuple
+print(z)
+
+###converting the tuple into a list,remove "mango",and converting back into a tuple
+this_list= list(z)
+this_list.remove("mango")
+this_tuple = tuple(this_list)
+print(this_tuple)
