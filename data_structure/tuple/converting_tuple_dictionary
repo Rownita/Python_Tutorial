@@ -1,0 +1,6 @@
+## converting list of tuples into a dictionary
+data = [('a', 1), ('b', 2), ('c', 3)]
+
+data2 = dict(data)
+print(data2)
+
