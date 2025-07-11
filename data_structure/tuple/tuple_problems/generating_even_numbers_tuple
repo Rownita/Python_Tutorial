@@ -9,3 +9,6 @@ for i in range(2,21):
 tuple_even_numbers = tuple(list1)
 
 print(tuple_even_numbers)
+##method2
+tuple_even_numbers = tuple([i for i in range(2, 21) if i % 2 == 0])
+print(tuple_even_numbers)
