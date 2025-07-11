@@ -1,0 +1,11 @@
+###counting unique tuple in list
+
+list1 = [(1,2),(3,4),(1,2),(5,6),(1,2)]
+
+unique_tuples = set(list1) ### set method is used to get unique tuple
+
+print(unique_tuples)
+
+for tup in unique_tuples: ###counting unique_tuple in list1
+    count = list1.count(tup)
+    print(f"{tup} occurs {count} times in a list")
