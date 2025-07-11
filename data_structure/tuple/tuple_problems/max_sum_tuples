@@ -1,0 +1,13 @@
+###Tuple with Maximum Sum of elements
+data =[(1,5),(2,3),(4,1),(6,2)]
+
+max_sum = 0
+max_tuple = ()
+
+for tup in data:
+    current_sum = sum(tup)
+    if current_sum>max_sum:
+        max_sum = current_sum
+        max_tuple = tup
+        
+print(max_tuple)
