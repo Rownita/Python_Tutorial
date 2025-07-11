@@ -10,3 +10,9 @@ print(tuple2.count("cherry"))
 
 tuple3= (10,20,30,20,30)
 print(tuple3.count(20))
+
+
+tuple3= (10,20,30,20,30)
+print(tuple3.count(20))
+
+print("index: ",tuple3.index(30))
