@@ -1,0 +1,12 @@
+data = [(1,5),(2,3),(4,1),(3,2)]
+print("The length is", len(data))
+
+### printing the elements of all tuple
+for i in range(len(data)):
+    for j in range(0,2):
+        print(data[i][j])
+
+print("Testing tuples:")
+print(data[0][0]) ### 1st tuple ,1st element
+print(data[0][1]) ## 1st tuple 2nd element
+print(data[2][1]) ### 3rd tuple 1st element
