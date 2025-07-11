@@ -1,0 +1,25 @@
+fruits = ("apple","banana","cherry")
+(green,yellow,red)= fruits ###unpacking tuple
+
+print(green)
+print(yellow)
+print(red)
+
+numbers = (123,56,90.5634)
+x,y,z=numbers
+print(x)
+print(y)
+print(z)
+
+fruits2 = ("apple","banana","cherry","strawberry","raspberry")
+
+a,b,*c = fruits2 ###unpacking tuple as a list and assigning it to *c
+print(a)
+print(b)
+print(c)
+
+###If the asterisk is added to another variable name than the last, Python will assign values to the variable until the number of values left matches the number of variables left.
+x,*y,z = fruits2
+print(x)
+print(y)
+print(z)
