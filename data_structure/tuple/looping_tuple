@@ -1,0 +1,18 @@
+this_tuple = ("apple","banana","cherry","mulberry")
+
+###looping through tuple
+for i in this_tuple:
+    print(i)
+
+print("Another system:")
+### 
+i = 0
+while i<len(this_tuple):
+    print(this_tuple[i])
+    i = i+1
+
+###
+print("Another way: ")
+
+for i in range(0,len(this_tuple)):
+    print(this_tuple[i])
