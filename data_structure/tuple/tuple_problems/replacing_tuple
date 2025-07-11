@@ -9,3 +9,13 @@ for i in range(0,len(data)):
         data.remove(data[i]) ###removing the tuple where 1st element is 3
         data.insert(i,(7,8)) ## replacing with (7,8)
 print(data)
+###solution2
+
+data = [(1,2),(3,4),(5,6)]
+print(len(data))
+
+for i in range(0,len(data)):
+    
+    if data[i][0]==3:
+        data[i]=(7,8)
+print(data)
