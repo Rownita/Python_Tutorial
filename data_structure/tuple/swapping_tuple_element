@@ -1,0 +1,10 @@
+### swapping element in each tuple
+
+list1 = [(1,"a"),(2,"b"),(3,"c")]
+
+for i in range(0,len(list1)):
+    (m,n)= list1[i] ###unpacking tuple
+    list1[i] = (n,m) ### swapping list element
+    
+print("After swapping: ",list1)
+      
