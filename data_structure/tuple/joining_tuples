@@ -1,0 +1,11 @@
+tuple1 = ("a","b","c")
+tuple2 = (1,2,3)
+tuple3 = tuple1+tuple2 ###joining tuples
+
+print(tuple3)
+
+tuple4 = ("apple","banana","cherry")
+
+tuple5 = tuple4*3 ###multiplying tuple
+
+print(tuple5)
