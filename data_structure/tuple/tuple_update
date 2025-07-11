@@ -15,3 +15,5 @@ this_list= list(z)
 this_list.remove("mango")
 this_tuple = tuple(this_list)
 print(this_tuple)
+
+del this_tuple
