@@ -1,0 +1,25 @@
+
+this_dict = dict(name="Rownita",age=27,county="Finland")
+print(this_dict)
+
+this_dict_2 = {"Name":"Rownita","model":"volvo","year":2024}
+print(this_dict_2["model"])
+
+x = this_dict_2.get("year") ### getting key's value
+print(x)
+
+y = this_dict_2.keys() ### list of all the keys in the dictionary
+print(y)
+
+this_dict_2["color"]="white"
+x = this_dict_2.keys()
+print(x)
+
+values_dictionary = this_dict_2.values()
+print(values_dictionary)
+
+y = this_dict_2.items()
+print(y)
+
+if "model" in this_dict_2:
+    print("Yes! the model exists")
