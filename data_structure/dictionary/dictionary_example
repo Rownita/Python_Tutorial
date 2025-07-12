@@ -1,1 +1,18 @@
 
+this_dict = dict(name="Rownita",age=27,county="Finland")
+print(this_dict)
+
+this_dict_2 = {"Name":"Rownita","model":"volvo","year":2024}
+
+print(type(this_dict_2))
+print(len(this_dict))
+
+dict_2 = {"name":"Rownita","subject":["chemistry","biology","maths"],
+    "color":["red","blue","pink"]
+    
+}
+print(dict_2["color"])
+
+###dictionary cannot contain duplicate values. It will be overwritten
+dict_3 = {"brand":"Ford","model":"Mustang","year":1990,"year":2020}
+print(dict_3)
