@@ -1,0 +1,17 @@
+#python dictionary
+car = {"name":"Ford","Model":"Volvo","year":2020}
+
+car["color"]=["red","blue","silver"]
+
+print(car)
+
+if "model" in car:
+    print("Yes! model exists")
+z = car.items()
+print(z)
+a = car.get("Model")
+print(a)
+
+b = car.get("color")
+print(b)
+
