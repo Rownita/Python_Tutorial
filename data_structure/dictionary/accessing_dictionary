@@ -1,0 +1,20 @@
+#python dictionary
+this_dict = { "name":"Rownita","age":27,"Status":"Single"}
+x = this_dict["name"]
+y = this_dict["Status"]
+
+print(x)
+print(y)
+dict2 = {"brand": "Ford","model":"Volvo","Year":2020}
+
+a = dict2.get("Year")
+print(a)
+print(dict2.keys()) ### getting keys
+z= dict2.values() ##getting values
+print(z)
+b = dict2.items() ##getting all items
+print(b)
+car = {"name":"Ford","model":"Volvo","year":2020}
+### adding new key_value
+car["color"]= "red"
+print(car)
