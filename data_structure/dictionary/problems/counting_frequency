@@ -1,0 +1,17 @@
+###counting word frequency in a text using dictionary
+
+text = "apple banana apple orange banana apple"
+
+def count_word_frequency(text):
+    words = text.split()
+    frequency = {}##empty dictionary
+    for word in words:
+        if word in frequency: ###if word is in the dictionary
+            frequency[word] = frequency[word]+1
+        else:
+            frequency[word]=1 ### if word is new
+    return frequency
+    
+dict_text = count_word_frequency(text)
+
+print(dict_text)
