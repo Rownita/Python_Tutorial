@@ -1,0 +1,13 @@
+this_dict_2 = {"name":"Ford", "model":"volvo","year":2025}
+
+###removing items from the dictionary
+
+this_dict_2.pop("model")
+this_dict_2.popitem() ###removes last key:value
+print(this_dict_2)
+
+dict_3 = {"fruit":"banana","price":20,"color":"yellow"}
+dict_3.pop("color")
+dict_3.popitem()
+print(dict_3)
+del dict_3
