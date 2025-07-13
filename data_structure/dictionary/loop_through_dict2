@@ -1,0 +1,10 @@
+this_dict_2 = {"name":"Ford", "model":"volvo","year":2025}
+
+###printing both key and value
+for x,y in this_dict_2.items():
+    print(x,y)
+
+### printing values
+
+for key in this_dict_2:
+    print(this_dict_2[key])
