@@ -1,0 +1,11 @@
+this_dict_2 = {"name":"Ford", "model":"volvo","year":2025}
+
+###adding items to the dictionary
+
+this_dict_2["price"] = 200000
+print(this_dict_2)
+
+this_dict_2.update({"version":209})
+
+this_dict_2.update({"warranty":5})
+print(this_dict_2)
