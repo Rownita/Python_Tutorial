@@ -9,5 +9,6 @@ print(this_dict_2)
 dict_3 = {"fruit":"banana","price":20,"color":"yellow"}
 dict_3.pop("color")
 dict_3.popitem()
+dict3.clear() ### clearing dictionary
 print(dict_3)
-del dict_3
+del dict_3 ### deleting dictionary
