@@ -1,0 +1,16 @@
+this_dict = {"name":"Rownita","age":27,"subject":"Data analysis"}
+
+this_dict["subject"]="Ënglish" ##changing value
+print(this_dict)
+
+this_dict["Status"]="single" ###adding new key_value pair
+print(this_dict)
+
+this_dict.update({"year":2027})
+this_dict.update({"subject":"Math"})
+
+print(this_dict)
+
+###updating key_value_pair
+this_dict.update({"age":25})
+print(this_dict)
