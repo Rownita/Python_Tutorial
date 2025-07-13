@@ -1,0 +1,21 @@
+this_dict_2 = {"name":"Ford", "model":"volvo","year":2025}
+
+###printing keys
+print("printing keys")
+for x in this_dict_2:
+    print(x)
+    
+###printing values
+print("printing values")
+for x in this_dict_2.values():
+    print(x)
+    
+print("Printing keys of the dictionary")
+###printing keys
+for x in this_dict_2.keys():
+    print(x)
+    
+print("printing items")
+###printing items
+for x in this_dict_2.items():
+    print(x)
