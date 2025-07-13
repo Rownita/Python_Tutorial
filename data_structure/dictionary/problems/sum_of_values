@@ -1,0 +1,9 @@
+### sum of values in a dictionary
+###calculating sum of dictionary values
+
+dict = {"a":10,"b":20,"c":30}
+sum = 0
+for i in dict.values():
+    sum = sum+i
+
+print(sum)
