@@ -1,0 +1,9 @@
+this_dict_2 = {"name":"Ford", "model":"volvo","year":2025}
+
+this_dict_3 = this_dict_2.copy() ### copying dictionary
+
+print(this_dict_3)
+
+dict4 = dict(this_dict_2) ###copying dictionary
+
+print(dict4)
